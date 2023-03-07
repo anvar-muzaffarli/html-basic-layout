@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+}
+
+header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+/* flex-direction: row; */
+/* default susmaya gore  */
+padding:30px;
+}
+
+/* .logo {
+    background-color: teal;
+    width: 200px;
+} */
+
+.logo {
+    width: 200px;
+}
+
+
+.linkler {
+    display: flex;
+}
+
+
+.linkler a {
+    font-size: 24px;
+    text-decoration: none;
+    color:white;
+    margin-right: 12px;
+}
+
+.linkler a:hover {
+    transform: translateY(30px);
+    transition: transform 1.4s ease;
+}
+
+
+
+header {
+    background-color: #535c68;
+    /* 0-9 A B C D E F  */
+    /* 16+9 */
+}
